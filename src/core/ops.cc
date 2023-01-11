@@ -401,6 +401,61 @@ TensorHandle Graph::new_weight(const Tensor& weight)
   return t;
 }
 
+/*
+Added function: flow_based graph partitioning:
+*/
+void Graph::partitioning()
+{
+ printf("partitioning, cc file\n");
+ std::vector<GraphXfer*> xfers;
+ for (int i = 1; i < 3; i++)
+   for (int j = 0; j < 2; j++) {
+     PaddingMode pad_mode = (j == 0) ? PD_MODE_SAME : PD_MODE_VALID;
+     xfers.push_back(GraphXfer::create_conv_relu(model, i, i, pad_mode));
+     xfers.push_back(GraphXfer::create_conv_batch(model, i, i, pad_mode));
+     xfers.push_back(GraphXfer::create_conv_mul(model, i, i, pad_mode));
+     //xfers.push_back(GraphXfer::create_conv_add(model, i, i, pad_mode));
+   }
+ xfers.push_back(GraphXfer::create_enlarge_merge_convs(model, AC_MODE_NONE));
+ xfers.push_back(GraphXfer::create_enlarge_merge_convs(model, AC_MODE_RELU));
+ xfers.push_back(GraphXfer::create_merge_group_convs(model, 1, 1, AC_MODE_NONE));
+ xfers.push_back(GraphXfer::create_merge_group_convs(model, 1, 1, AC_MODE_RELU));
+ xfers.push_back(GraphXfer::create_merge_group_convs(model, 2, 2, AC_MODE_NONE));
+ xfers.push_back(GraphXfer::create_merge_group_convs(model, 2, 2, AC_MODE_RELU));
+ char* taso_path = getenv("TASO_HOME");
+ if (taso_path == NULL) {
+   fprintf(stderr, "Error: environment variable TASO_HOME is not set. "
+          "Please set TASO_HOME to the home directory of TASO source code.\n");
+   assert(false);
+ }
+ std::string graph_subst_file = std::string(taso_path) + "/graph_subst.pb";
+ GraphXfer::load_graph_xfer_from_pb_file(model, xfers, graph_subst_file);
+ //loaded everything in Xfer
+ //create the capacity:
+ int depth = 0; //learn more about the insight of the depth
+ std::map<Op, int> capacity;
+ //std::map<Op, std::set<Edge, EdgeCompare>, OpCompare>::const_iterator it;
+ printf("xfers.size(): %d\n", xfers.size());
+ for (size_t i = 0; i < xfers.size(); i++) {
+  std::map<Op, std::set<Edge, EdgeCompare>, OpCompare>::const_iterator it;
+  for (it = this->inEdges.begin(); it != this->inEdges.end(); it++) {
+    //TO DO: no in edges.
+    Op op = it->first;
+    OpX* srcOp = xfers[i]->srcOps[depth];
+    if(xfers[i]->can_match(srcOp, op, this)){
+      if(capacity.find(op) != capacity.end()){
+        capacity[op] += 1;
+      }
+      else{
+        capacity[op] = 1;
+      }
+      printf("capacity: %d", capacity[op]);
+    }
+ }
+ }
+}
+
+
 Graph* Graph::optimize(float alpha, int budget, bool print_subst)
 {
   std::vector<GraphXfer*> xfers;

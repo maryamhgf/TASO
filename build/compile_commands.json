@@ -1,0 +1,322 @@
+[
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/activation.cc.o -c /workspace/TASO/src/core/activation.cc",
+  "file": "/workspace/TASO/src/core/activation.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/batchnorm.cc.o -c /workspace/TASO/src/core/batchnorm.cc",
+  "file": "/workspace/TASO/src/core/batchnorm.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/broadcast_add.cc.o -c /workspace/TASO/src/core/broadcast_add.cc",
+  "file": "/workspace/TASO/src/core/broadcast_add.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/cast.cc.o -c /workspace/TASO/src/core/cast.cc",
+  "file": "/workspace/TASO/src/core/cast.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/concat.cc.o -c /workspace/TASO/src/core/concat.cc",
+  "file": "/workspace/TASO/src/core/concat.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/constant.cc.o -c /workspace/TASO/src/core/constant.cc",
+  "file": "/workspace/TASO/src/core/constant.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/conv2d.cc.o -c /workspace/TASO/src/core/conv2d.cc",
+  "file": "/workspace/TASO/src/core/conv2d.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/element.cc.o -c /workspace/TASO/src/core/element.cc",
+  "file": "/workspace/TASO/src/core/element.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/elementwise_unary.cc.o -c /workspace/TASO/src/core/elementwise_unary.cc",
+  "file": "/workspace/TASO/src/core/elementwise_unary.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/enlarge.cc.o -c /workspace/TASO/src/core/enlarge.cc",
+  "file": "/workspace/TASO/src/core/enlarge.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/fuse_conv_batchnorm.cc.o -c /workspace/TASO/src/core/fuse_conv_batchnorm.cc",
+  "file": "/workspace/TASO/src/core/fuse_conv_batchnorm.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/fuse_conv_batchnorm_alpha_var.cc.o -c /workspace/TASO/src/core/fuse_conv_batchnorm_alpha_var.cc",
+  "file": "/workspace/TASO/src/core/fuse_conv_batchnorm_alpha_var.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/fuse_conv_batchnorm_bias.cc.o -c /workspace/TASO/src/core/fuse_conv_batchnorm_bias.cc",
+  "file": "/workspace/TASO/src/core/fuse_conv_batchnorm_bias.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/graph_to_trt.cc.o -c /workspace/TASO/src/core/graph_to_trt.cc",
+  "file": "/workspace/TASO/src/core/graph_to_trt.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/matmul.cc.o -c /workspace/TASO/src/core/matmul.cc",
+  "file": "/workspace/TASO/src/core/matmul.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/merge_gconv.cc.o -c /workspace/TASO/src/core/merge_gconv.cc",
+  "file": "/workspace/TASO/src/core/merge_gconv.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/mul.cc.o -c /workspace/TASO/src/core/mul.cc",
+  "file": "/workspace/TASO/src/core/mul.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/noop.cc.o -c /workspace/TASO/src/core/noop.cc",
+  "file": "/workspace/TASO/src/core/noop.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/ops.cc.o -c /workspace/TASO/src/core/ops.cc",
+  "file": "/workspace/TASO/src/core/ops.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/pad.cc.o -c /workspace/TASO/src/core/pad.cc",
+  "file": "/workspace/TASO/src/core/pad.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/pool2d.cc.o -c /workspace/TASO/src/core/pool2d.cc",
+  "file": "/workspace/TASO/src/core/pool2d.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/reduce.cc.o -c /workspace/TASO/src/core/reduce.cc",
+  "file": "/workspace/TASO/src/core/reduce.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/reshape.cc.o -c /workspace/TASO/src/core/reshape.cc",
+  "file": "/workspace/TASO/src/core/reshape.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/resize.cc.o -c /workspace/TASO/src/core/resize.cc",
+  "file": "/workspace/TASO/src/core/resize.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/shape.cc.o -c /workspace/TASO/src/core/shape.cc",
+  "file": "/workspace/TASO/src/core/shape.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/slice.cc.o -c /workspace/TASO/src/core/slice.cc",
+  "file": "/workspace/TASO/src/core/slice.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/split.cc.o -c /workspace/TASO/src/core/split.cc",
+  "file": "/workspace/TASO/src/core/split.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/squeeze.cc.o -c /workspace/TASO/src/core/squeeze.cc",
+  "file": "/workspace/TASO/src/core/squeeze.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/substitution.cc.o -c /workspace/TASO/src/core/substitution.cc",
+  "file": "/workspace/TASO/src/core/substitution.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/topk.cc.o -c /workspace/TASO/src/core/topk.cc",
+  "file": "/workspace/TASO/src/core/topk.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/transpose.cc.o -c /workspace/TASO/src/core/transpose.cc",
+  "file": "/workspace/TASO/src/core/transpose.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/unsqueeze.cc.o -c /workspace/TASO/src/core/unsqueeze.cc",
+  "file": "/workspace/TASO/src/core/unsqueeze.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/src/core/where.cc.o -c /workspace/TASO/src/core/where.cc",
+  "file": "/workspace/TASO/src/core/where.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/bin/c++ -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Wall -fPIC  -fPIC -o CMakeFiles/taso_runtime.dir/rules.pb.cc.o -c /workspace/TASO/build/rules.pb.cc",
+  "file": "/workspace/TASO/build/rules.pb.cc"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/activation_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/activation_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/activation_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/batchnorm_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/batchnorm_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/batchnorm_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/broadcast_add_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/broadcast_add_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/broadcast_add_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/cast_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/cast_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/cast_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/concat_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/concat_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/concat_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/constant_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/constant_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/constant_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/conv2d_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/conv2d_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/conv2d_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/cuda_helper.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/cuda_helper.cu.o",
+  "file": "/workspace/TASO/src/cudnn/cuda_helper.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/element_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/element_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/element_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/elementwise_unary_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/elementwise_unary_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/elementwise_unary_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/enlarge_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/enlarge_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/enlarge_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/fuse_conv_batchnorm_alpha_var_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/fuse_conv_batchnorm_alpha_var_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/fuse_conv_batchnorm_alpha_var_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/fuse_conv_batchnorm_bias_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/fuse_conv_batchnorm_bias_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/fuse_conv_batchnorm_bias_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/fuse_conv_batchnorm_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/fuse_conv_batchnorm_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/fuse_conv_batchnorm_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/matmul_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/matmul_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/matmul_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/merge_gconv_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/merge_gconv_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/merge_gconv_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/mul_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/mul_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/mul_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/ops_cudnn.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/ops_cudnn.cu.o",
+  "file": "/workspace/TASO/src/cudnn/ops_cudnn.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/pad_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/pad_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/pad_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/pool2d_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/pool2d_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/pool2d_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/reduce_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/reduce_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/reduce_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/reshape_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/reshape_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/reshape_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/resize_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/resize_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/resize_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/shape_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/shape_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/shape_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/slice_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/slice_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/slice_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/squeeze_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/squeeze_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/squeeze_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/topk_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/topk_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/topk_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/transpose_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/transpose_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/transpose_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/unsqueeze_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/unsqueeze_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/unsqueeze_kernel.cu"
+},
+{
+  "directory": "/workspace/TASO/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDNN -Dtaso_runtime_EXPORTS -I/workspace/TASO/build -I/workspace/TASO/include -I/usr/local/cuda/include -O2 -Xcompiler=-fPIC  -Xcompiler=-fPIC -std=c++14 -x cu -rdc=true -c /workspace/TASO/src/cudnn/where_kernel.cu -o CMakeFiles/taso_runtime.dir/src/cudnn/where_kernel.cu.o",
+  "file": "/workspace/TASO/src/cudnn/where_kernel.cu"
+}
+]

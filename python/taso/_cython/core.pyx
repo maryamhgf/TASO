@@ -537,6 +537,9 @@ cdef class PyGraph:
         cdef TensorHandle handle = self.p_graph.new_weight(ndim, dim_array, arr.data.as_floats)
         t = ctypes.cast(<unsigned long long>handle, ctypes.c_void_p)
         return PyTensor(t)
+    
+    def partitioning(self):
+        self.p_graph.partitioning()
 
     def optimize(self, float alpha, int budget, bool print_subst):
         cdef Graph* new_graph = self.p_graph.optimize(alpha, budget, print_subst)
